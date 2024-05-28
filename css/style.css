@@ -1,0 +1,292 @@
+/* pagination */
+.numbering{
+    padding: 10px;
+    margin-right: 4%;
+}
+
+.page-item.active .page-link {
+    background-color: #084786; /* Custom background color */
+    border-color: #084786; /* Custom border color */
+    color: white; /* Custom text color */
+}
+.page-link{
+    color: #084786;
+}
+/* header */
+
+.titledb{
+    color: #01161E;
+    font-size: 30px;
+    background-color: #FAFAFA;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    padding-left: 40px;
+    height: 70px;
+    box-shadow: 5px 1px 5px grey;
+    width: 100%;
+}
+
+.TitelDB{
+    margin-top: 15px;
+}
+
+/* icon di header */
+#sidebarToggleCollapse{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#sidebarToggle{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bi-list, .bi-person-circle{
+    size: 50px;
+    color: #000;
+}
+
+
+.bi-list:hover, .bi-person-circle:hover{
+    size: 50px;
+    color: #084786;
+}
+
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.spacing{
+    margin-right: 90%;
+}
+
+.spacingDash{
+    margin-right: 80%;
+}
+.sidebar{
+    font-size: 18px;
+}
+/* container tengah  */
+.maincontent {
+    padding: 0%;
+}
+
+
+.containerHistory{
+    padding: 0%;
+}
+
+
+.kotakBtnJdl
+{
+    margin-left: 10PX;
+    margin-right: 2%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+/* judul main containter tgh */
+.db{
+    font-size: 50;
+    font-weight: bold;
+    color: #000;
+}
+
+.db a :hover{
+    color: #152340;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bi-chevron-left{
+    margin-left: 23px;
+    padding-right: 1%;
+}
+
+.kotakTransHistory{
+        padding-top: 1%;
+}
+
+/* sidebar */
+.sidebar{
+    background-color: #FAFAFA;
+    color: #01161E;
+    height: 100%;
+
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    text-align:left;
+    color: #000;
+    font-weight: bold;
+}
+.sidebar a.active {
+    background-color: #FAFAFA;
+    border: 0px;
+    color: #000;
+}
+.sidebar a:hover {
+    color: #084786;
+}
+
+.sidebar a.active {
+    color: #084786;
+}
+
+.list-group-item{
+    background-color: #FAFAFA;
+    color: #01161E;
+    border: 0px;
+}
+
+.bi-clipboard-data, .bi-house-door, .bi-clock-history{
+    margin-right: 10px;
+}
+
+/* icon button edit delete trash */
+.icon-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #4c80b4;
+}
+.icon-button:hover {
+    color: #01161E;
+}
+
+/* button */
+.btn{
+    background-color: #152340;
+    border: 0;
+    color: #e0e0e0;
+ }
+ .btn:hover{
+     background-color: gray;
+ }
+ #confirmDeleteButton{
+     background-color: red;
+ }
+ .btnTambah, .btnSubmit{
+    margin-top: 15px;
+}
+
+.btnNew{
+    margin-top: 8px;
+}
+
+
+/* chart */
+.kotakChart {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#barChart, #revenueChart{
+    margin-top: 3%;
+    background-color: #FAFAFA;
+    width: 90%;
+    height: 60vh; 
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+#barChart:hover, #revenueChart:hover, #unitsSoldChart:hover{
+    background-color: #F2F6FF;
+    cursor: pointer;
+    
+}
+
+#unitsSoldChart{
+    margin-top: 3%;
+    background-color: #FAFAFA;
+    width: 90%; 
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+margin-bottom: 3%;
+}
+
+/* table */
+.dashboard-table{
+    background-color: #FAFAFA;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.dashboardTableTitle{
+    color: #000;
+    font-weight: bold;
+}
+.dashboardTableTitle:hover{
+    color: #084786;
+}
+
+.stock-table{
+    background-color: #FAFAFA;
+    margin-left: 27px;
+    width: 95%;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.history-table{
+    background-color: #FAFAFA;
+    padding: 30px;
+    width: 95%;
+    border-radius: 8px;
+    margin-left: 27px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.trans-table{
+        width: 100%;
+        margin-left: 30px;
+        background-color: #FAFAFA;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        
+}
+body, html {
+    margin: 0;
+    background-color: #F2F6FF;
+}
+
+.table td, .table th {
+    white-space: nowrap;
+}
+
+
+/* form  */
+.searchDateForm, .searchStockForm{
+    margin-left: 27px;
+    margin-bottom: 1%;
+}
+
+#transactionForm{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 1%;
+    width: 100%;
+    background-color: #FAFAFA;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 8px;
+    padding: 30px;
+
+}
+
+label{
+    font-weight: bold;
+
+}
+#searchBar{
+    margin-right: 100px;
+}
